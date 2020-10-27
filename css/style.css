@@ -1,0 +1,38 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: #FCFBF8;
+    font-family: 'Lato', monospace;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul > li {
+    list-style: none;
+}
+
+.wrapper {
+}
+
+.page_break {
+    position: absolute;
+}
+
+.infomation {
+    width: 100vw;
+    overflow: hidden;
+}
+
+.infomation--container {
+    display: flex;
+}
+
+.infomation--container__content {
+    width: 40%;
+}
+.infomation--container__logo {
+    width: 60%;
+}
