@@ -3,7 +3,7 @@ body {
   padding: 0;
   margin: 0;
   background-color: #fcfbf8;
-  color: #383838;
+  color: #707070;
   font-family: 'Lato', monospace;
   font-weight: 600;
 }
@@ -31,7 +31,7 @@ p {
 .page_break--line {
     width: 7em;
     height: 5px;
-    background-color: #383838;
+    background-color: #707070;
 }
 .page_break--name {
     display: flex;
@@ -55,6 +55,7 @@ p {
 }
 .author__name--value {
     font-size: 70px;
+    letter-spacing: .2em;
 }
 .author__work {
     font-size: 28px;
@@ -66,12 +67,13 @@ p {
 }
 .author__socials {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .author__say--value {
     font-size: 200px;
     opacity: .2;
     margin: 0;
+    letter-spacing: .2em;
 }
 .infomation--container__logo {
   width: 60%;
