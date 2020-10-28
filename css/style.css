@@ -84,7 +84,6 @@ p {
     letter-spacing: 0.2em;
 }
 .infomation--container__logo {
-    width: 60%;
     height: 100vh;
 }
 .infomation--container__logo img {
@@ -92,10 +91,4 @@ p {
     right: 0;
     display: block;
     position: absolute;
-}
-
-
-/* responsive */
-@media (max-width: ) {
-
 }
