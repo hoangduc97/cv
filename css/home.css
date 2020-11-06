@@ -4,11 +4,11 @@ body {
     padding: 0;
     min-height: 100%;
     background: url('../img/bg.png') #333333e0;
-    background-repeat: round;
-    background-blend-mode: multiply;
+    background-blend-mode: saturation;
     font-size: 14px;
     font-family: 'Myriad Pro Regular';
-    color: #6a6969;
+    color: #9c9c9c;
+    overflow: hidden;
 }
 p {
     margin: 0;
@@ -51,6 +51,10 @@ a {
 .header__logo--primary {
     font-size: 40px;
     font-family: 'Pacifico', cursive;
+    transition: .3s all;
+}
+.header__logo--primary:hover {
+    cursor: pointer;
 }
 .header__logo--secondary {
     font-size: 12px;
@@ -58,7 +62,7 @@ a {
 .header__logo--split {
     height: 1.5em;
     width: 1px;
-    background-color: #6a6969;
+    background-color: #9c9c9c;
     margin: 1.5em;
 }
 .header__categories {
@@ -93,7 +97,7 @@ a {
     width: calc(950px - 6em);
     height: 10px;
     background: url(../img/bg.png) #333333c7;
-    background-blend-mode: multiply;
+    background-blend-mode: saturation;
 }
 .section__content {
     margin: 2em 0;
@@ -110,4 +114,7 @@ a {
     height: auto;
     overflow: hidden;
     border-radius: 50%;
+}
+.about__info {
+    margin-left: 2em;
 }
